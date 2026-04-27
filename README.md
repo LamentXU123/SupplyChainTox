@@ -6,8 +6,6 @@ You can create a compromised version of a package with this toolkit within minut
 
 # Wait, What??
 
-Now, assume you want to launch a supply chain attack against a PyPI package. You have to create a compromised version of the package and then upload it to PyPI (with your method to obtain permission from the package owner).
-
 Let's say, you want to compromise the `requests` package. You can use Lament to create a compromised version of the package with the following steps:
 
 1. Install Lament using pip: `pip install Lament`
