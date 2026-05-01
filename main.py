@@ -1,3 +1,9 @@
+# -*- encoding: utf-8 -*-
+'''
+@File    :   main.py
+@Time    :   2026/05/01 15:32:25
+@Author  :   LamentXU 
+'''
 from __future__ import annotations
 
 from textual.app import App, ComposeResult

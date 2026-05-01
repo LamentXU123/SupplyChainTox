@@ -9,6 +9,7 @@ description = "Minimal Textual splash screen and top bar."
 requires-python = ">=3.11"
 dependencies = [
     "textual>=8,<9",
+    "lastversion"
 ]
 
 [project.scripts]
@@ -16,3 +17,15 @@ SupplyChainTox = "main:main"
 
 [tool.setuptools]
 py-modules = ["main"]
+
+[tool.coverage.run]
+branch = true
+relative_files = true
+source = ["main"]
+
+[tool.coverage.report]
+omit = ["tests/*"]
+skip_empty = true
+
+[tool.coverage.xml]
+output = "coverage.xml"
