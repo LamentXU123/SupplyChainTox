@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "SupplyChainTox"
+name = "SCTox"
 version = "0.1.0"
-description = "Minimal Textual splash screen and top bar."
+description = "A toolbox for supply chain attacks"
 requires-python = ">=3.11"
 dependencies = [
     "textual>=8,<9",
