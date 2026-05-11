@@ -5,13 +5,11 @@
 @Author  :   LamentXU 
 '''
 from __future__ import annotations
-
 from textual.app import App, ComposeResult
 from textual.binding import Binding
 from textual.containers import Vertical
 from textual.timer import Timer
 from textual.widgets import Static
-
 VERSION = 'v0.1 alpha'
 APP_NAME = "SupplyChainTox"
 # Use the literal block cursor the UI should display during the splash.
@@ -28,7 +26,6 @@ LOADING_FRAMES = (
     "\u2807",
     "\u280f",
 )
-
 
 def render_title(cursor_visible: bool) -> str:
     cursor = f"[b #f59e0b]{INSERT_CURSOR}[/]" if cursor_visible else " "
